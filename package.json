@@ -1,0 +1,31 @@
+{
+  "name": "chakra-res",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w -ws _ ",
+    "clean": "bsb -clean-world",
+    "server": "moduleserve ./ --port 8000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "BuckleScript",
+    "ReasonReact",
+    "reason-react"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/react": "^1.2.1",
+    "@emotion/react": "^11.1.4",
+    "@emotion/styled": "^11.0.0",
+    "framer-motion": "^3.2.2-rc.1",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "reason-react": ">=0.7.0"
+  },
+  "devDependencies": {
+    "bs-platform": "^7.2.2",
+    "moduleserve": "^0.9.0"
+  }
+}
